@@ -1,0 +1,24 @@
+.btn {
+  margin: 16px;
+}
+
+header, footer .footer-above, footer .footer-below, hr.star-light:after {
+    background-color: #000;
+}
+
+section.success {
+    background-color: #000;
+}
+
+.navbar-default {
+    background-color: #000;
+}
+
+table.about-table td {
+    padding: 10px;
+    text-align: justify;
+}
+
+table.about-table tr.bold-row {
+    font-weight: bolder;
+}
