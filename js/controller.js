@@ -89,7 +89,7 @@ app.controller('controller', function ($http, $scope, $q) {
 
     function fetchData(id) {
         var str = id.toString();
-        var url = 'http://api.cr-api.com/player/' + str;
+        var url = 'https://api.cr-api.com/player/' + str;
         return $http({
             method: 'GET',
             url: url,
